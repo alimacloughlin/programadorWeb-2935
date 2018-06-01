@@ -114,23 +114,23 @@ console.log('Init app')
 
 // var result = prompt('Ingrese resultado', 'Ganó, Empató o Perdió')
 
-// switch (result) {
-//   case 'Ganó':
-//   case 'ganó':
-//   case 'Gano':
-//   case 'gano':
-//     console.log('Sumaste 3 puntos')
-//     break
-//   case 'Empató':
-//     console.log('Sumaste 1 punto')
-//     break
-//   case 'Pedrió':
-//     console.log('Sumaste 0 puntos')
-//     break
-//   default:
-//     console.log('Resultado no correcto')
-//     break
-// }
+switch (result) {
+  case 'Ganó':
+  case 'ganó':
+  case 'Gano':
+  case 'gano':
+    console.log('Sumaste 3 puntos')
+    break
+  case 'Empató':
+    console.log('Sumaste 1 punto')
+    break
+  case 'Pedrió':
+    console.log('Sumaste 0 puntos')
+    break
+  default:
+    console.log('Resultado no correcto')
+    break
+}
 
 // if ('Ganó' === result) {
 //   console.log('Sumaste 3 puntos')
